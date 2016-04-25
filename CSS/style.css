@@ -1,0 +1,14 @@
+/*set text color as white and background color as black, set the header in center position*/
+		h1 {color:white;
+			background-color:black;
+			font-style:italic;
+			text-align:center;
+			}
+		/*set paragrpah line space using line-height, set text indentation as 25px*/
+		p {line-height:150%;
+			color:blue;
+			text-indent:25px;}
+		a:link{color:red;
+				text-decoration:none;}
+		div {display:none;}
+		form {padding-top:50px;}

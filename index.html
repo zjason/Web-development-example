@@ -1,0 +1,63 @@
+<! DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+<head>
+	<title>HTML and CSS</title>
+	<!--Link to an extrenal style sheet-->
+	<link rel="stylesheet" type="text/css" href="CSS/style.css"/>
+</head>
+<body>
+This is body text.
+<h1>Test line spacing using CSS</h1>
+<p>This is paragrpah text. Lest try line spacing. Lest try line spacing. Lest try line spacing. 
+ Lest try line spacing. Lest try line spacing. Lest try line spacing. Lest try line spacing.
+ Lest try line spacing. Lest try line spacing. Lest try line spacing. Lest try line spacing.
+ Lest try line spacing. Lest try line spacing. Lest try line spacing. Lest try line spacing. </p>
+ <a href="https://youtube.com">Youtube</a>
+ <p onclick="$(this).hide();">This is jquery paragraph test inline jquery hide.</p>
+ <p id="hidetest">This is jquery paragraph test external jquery hide.</p>
+ <div id="message">Welcome to Huanxiong.com</div>
+ <form>
+	<br>Radio button implementation:</br>
+	Male: <input type="radio" name="sex" value="male"/>
+	Female: <input type="radio" name="sex" value="female"/>
+	
+	<br>Check box implementation:</br>
+	Bacon <input type="checkbox" name="food" value="bacon"/>
+	Apple <input type="checkbox" name="food" value="apple"/>
+	Ham <input type="checkbox" name="food" value="ham"/>
+	
+	<br>Drop down list implementation:</br>
+	<select name="activites">
+		<option value="play">Play the guitar</option>
+		<option value="music">Listen music</option>
+		<option value="code">Learn program</option>
+		<option value="eat">Get some food</option>
+	</select>
+	
+	<br>Text Areas implementation:</br>
+	<textarea name="comment" rows="8" cols="40">
+	Please leave comment here!
+	</textarea>
+	
+	<p>Submit a file:</p>
+	<input type="file" name="userfile"/>
+	
+ </form>
+	
+ <form action="checkUserInfo" method="post">
+	Username: <input type="text" name="username" size="20" maxlength="10" value="Enter username here"/>
+	<br/>
+	<br/>
+	Password: <input type="password" name="password"/>
+	<br />
+	<input type="submit" value="Log in" />
+ </form>
+
+ <script type="text/javascript" src="js/jquery.js"></script>
+ <script type="text/javascript" src="js/hide.js"></script>
+ <script type="text/javascript" src="js/init.js"></script>
+ <h3><a href="javascript.html">JavaScript implementation</a></h3>
+</body>
+</html>
