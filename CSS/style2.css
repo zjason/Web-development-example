@@ -1,0 +1,23 @@
+/* this is the style sheet for javascript.html*/
+	.bold{font-weight:bold}
+	
+	#hoverdiv{display:none;
+			  position:absolute;
+			  font-size:14px;
+			  background-color:black;
+			  color:white;
+			  border:1px solid #999;
+			  padding: 7px;}
+			  
+	#top_message{ display:none;
+					margin-left:20px;
+					margin-right:20px;
+					text-align:center;
+					background-color:#FF0000;
+					color:white;
+					border:1px solid #999;
+					padding: 7px;}
+	#terms{
+		height:160px;
+		width: 400px;
+	}

@@ -2,16 +2,70 @@
 <html>
 <head>
 <title>JavaScript</title>
+	<link rel="stylesheet" type="text/css" href="CSS/style2.css"/>
 </head>
 <body>
-
+	<div id="top_message">
+	<p>You haven't log in, do you want to log in first?</p>
+	<a href="#" id="hide_message">No Thanks!</a>
+	</div>
+<p><a class="hover" href="index.html" hovertext="Go back to index page!">back to home</a></p>
 <h1>This page will implement some JavaScript</h1>
-<p>This is a paragraph.</p>
-<script type="text/javascript">
-/*
+<form id="login_form">
+	<input type="text" id="username" placeholder="Username"/>
+	<input type="password" placeholder="Password"/>
+	<input type="email" placeholder="Enter email address..."/>
+	<input type="submit" value="Login"/>
+</form>
+	<div id="login_feedback"></div>
 
-*/
-</script>
+	Font size: <a class="hover" href="#" id="smaller" hovertext="Make para smaller!">Smaller</a> 
+			   <a class="hover" href="#" id="bigger" hovertext="Make para bigger!">Bigger</a>
+	<p>This para will change when different font size was selected.</p>
+	<form action="#" method="post" enctype="multipart/form-data">
+		<p>Upload form implementation</p>
+		<input id="file" type="file"/>
+		<input id="submit" type="submit" value="Upload"/>
+	</form>
+	<br />
+	<textarea id="comment" rows='4' cols="80" maxlength="155"></textarea>
+	<p>hide and show div implement: </p>
+	<input type="button" id="hideshow" value="Hide"/>
+	<div id="textarea_feedback"></div>
+	<div id="hoverdiv"></div>
+	
+	<input class="combine" type="text" placeholder="First name" />
+	<input class="combine" type="text" placeholder="Last name" />
+	<input type="button" value="Combine" id="combineb" />
+	<div id="combine_feedback"> </div>
+	<img class="fadeto" src="image/huanxiong.jpg" height="250"/>
+	<img class="fadeto" src="image/huanxiong.jpg" height="250"/>
+	<img class="fadeto" src="image/huanxiong.jpg" height="250"/>
+	<img class="fadeto" src="image/huanxiong.jpg" height="250"/>
+	
+	<textarea id="terms">The second and third formulations of this function create a jQuery 
+	using one or more DOM elements that were already selected in some other way. 
+	A jQuery object is created from the array elements in the order they appeared in the array; 
+	unlike most other multi-element jQuery operations, the elements are not sorted in DOM order. 
+	Elements will be copied from the array as-is and won't be unwrapped if they're already jQuery 
+	collections.The second and third formulations of this function create a jQuery object using one 
+	or more DOM elements that were already selected in some other way. A jQuery object is created 
+	from the array elements in the order they appeared in the array; unlike most other multi-element 
+	jQuery operations, the elements are not sorted in DOM order. Elements will be copied from the 
+	array as-is and won't be unwrapped if they're already jQuery collections.</textarea>
+	<p><input type="checkbox" id="agree" />I agree to the terms and conditions.</p>
+	<div id="scroll_feedback"></div>
+	
+	<script type="text/javascript">
+	// validate user info
+		function validator(){
+			alert(document.loginform.username.value);
+		}
+	</script>
+	
+
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/parctice.js"></script>
 
 </body>
 </html>
